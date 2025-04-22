@@ -27,8 +27,8 @@ function LoginPage() {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-black text-green-500 font-mono">
-      <div className="w-full max-w-md p-8 border border-green-500 rounded">
+    <div className="flex items-center justify-center min-h-screen bg-black text-green-500 font-mono px-4">
+      <div className="w-full sm:max-w-sm md:max-w-md p-6 sm:p-8 border border-green-500 rounded">
         <h1 className="text-2xl font-bold mb-6 text-center">Login</h1>
         <form>
           <div className="mb-4">
