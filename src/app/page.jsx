@@ -6,7 +6,7 @@ import deleteIcon from '../../public/delete.png';
 import Image from 'next/image';
 
 export default function Home() {
-  const backend = "http://hrcompany.3bbddns.com:39854";
+  const backend = "http://192.168.100.183:5000";
   const [cmd, setCmd] = useState('');
   const [logs, setLogs] = useState('');
   const [currentPath, setCurrentPath] = useState('');
