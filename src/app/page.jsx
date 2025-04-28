@@ -4,10 +4,9 @@ import { useRouter } from 'next/navigation';
 import Swal from 'sweetalert2';
 import deleteIcon from '../../public/delete.png';
 import Image from 'next/image';
-import { FaFolder , FaFileAlt } from 'react-icons/fa';
 
 export default function Home() {
-  const backend = 'http://192.168.100.183:5000';
+  const backend = "http://hrcompany.3bbddns.com:39854";
   const [cmd, setCmd] = useState('');
   const [logs, setLogs] = useState('');
   const [currentPath, setCurrentPath] = useState('');
